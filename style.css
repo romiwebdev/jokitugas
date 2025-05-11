@@ -1,6 +1,13 @@
-body {
+/* Prevent horizontal overflow */
+html, body {
+    max-width: 100%;
     overflow-x: hidden;
-}
+  }
+  
+  /* Ensure all elements stay within viewport */
+  * {
+    box-sizing: border-box;
+  }
 
 .testimonial-card {
     transition: all 0.3s ease;
